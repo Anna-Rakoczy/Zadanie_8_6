@@ -1,6 +1,15 @@
-var a = 10;
-var h = 6;
-var triangleArea = a*h/2;
+var a = 1,
+    b = -10,
+    value;
 
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+value = (a * a) + (2 * a * b) - (b * b);
 
+if (value > 0) {
+ console.log("Wynik jest większy od zera: " + value);
+}
+else if (value < 0) {
+ console.log("Wynik jest mniejszy od zera: " + value);
+}
+else {
+ console.log("Wynik wynosi zero: " + value);
+}
